@@ -13,7 +13,7 @@ public class Ejercicio2 {
             imprimirKey(map);
             keyNumero = scanner.nextInt();
             if (map.containsKey(keyNumero)) {
-                System.out.println("El Key que usted seleccionó es: " + map.get(keyNumero));
+                System.out.printf("El Key que usted seleccionó es: %s%n", map.get(keyNumero));
             } else {
                 System.out.println("Eso no existe: ");
             }
@@ -37,4 +37,3 @@ public class Ejercicio2 {
         }
     }
 }
-

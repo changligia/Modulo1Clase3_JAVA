@@ -15,7 +15,7 @@ public class Ejercicio3 {
             try {
                 System.out.printf("La palabra seleccionada es: %s%n", lista.get(index));
             } catch (IndexOutOfBoundsException indexOutOfBoundsException) {
-                System.out.println("La palabra con ese index no existe: ");
+                System.out.println("La palabra con ese index no existe");
             }
         }
         while (index != -1);
