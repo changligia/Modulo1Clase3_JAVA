@@ -9,6 +9,7 @@ public class Ejercicio2 {
         int keyNumero;
 
         do {
+            System.out.println("Escriba -1 para salir del programa: ");
             imprimirKey(map);
             keyNumero = scanner.nextInt();
             if (map.containsKey(keyNumero)) {
@@ -17,7 +18,6 @@ public class Ejercicio2 {
                 System.out.println("Eso no existe: ");
             }
         } while (keyNumero != -1);
-
         scanner.close();
     }
 
@@ -35,7 +35,6 @@ public class Ejercicio2 {
         for (var set : map.entrySet()) {
             System.out.println("Numero: " + set.getKey());
         }
-        System.out.println("Escriba -1 para salir del programa: ");
     }
 }
 

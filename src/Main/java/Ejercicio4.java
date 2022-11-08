@@ -19,7 +19,7 @@ public class Ejercicio4 {
             System.out.print("Escriba el Key: ");
             key = scanner.nextLine();
             if (mapPrecio.containsKey(key)) {
-                System.out.printf("El item %s tiene un precio de %.2f USD y su stock es de %d unidades\n",
+                System.out.printf("El item %s tiene un precio de %.2f USD y su stock es de %d unidades%n",
                         key, mapPrecio.get(key), mapStock.get(key));
             } else {
                 System.out.println("Eso no existe");
